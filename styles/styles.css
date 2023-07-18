@@ -1,0 +1,94 @@
+
+
+
+/* =================================  */
+.about-item{
+  margin-left: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 250px;
+}
+
+.about-h4{
+font-size: 16px;
+margin-left: 10px;
+}
+
+.no-bullet-h4{
+color: white;
+font-size       : 16px;
+margin-left     : 10px;
+}
+
+.no-bullet {
+  list-style-type : none;
+  margin          : 8px;
+  font-size       : 13px;
+  padding         : 0;
+  padding-bottom  : 0px;
+  color           : white;
+  text-decoration : none;
+}
+
+li:hover{
+  text-decoration: underline; 
+}
+
+.socials{
+  /* flex-wrap: wrap; */
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  width: 345px;
+  b
+}
+
+/* to make the images b/w when hovered over */
+.bw-image {
+  padding-left: 5px;
+    filter: grayscale(100%);
+    transition: filter 0.2s ease;
+  }
+
+  .image-1:hover .bw-image{
+    filter: grayscale(0%);
+    cursor: pointer;
+  }
+
+  .image-2:hover .bw-image {
+    filter: grayscale(0%);
+    cursor: pointer;
+  }
+  .image-3:hover .bw-image {
+    filter: grayscale(0%);
+    cursor: pointer;
+  }
+  .image-4:hover .bw-image {
+    filter: grayscale(0%);
+    cursor: pointer;
+  }
+
+.footer-container{
+    box-sizing: border-box;
+    width: 100%;
+    background-color    : #212330;
+    color               : white;
+    border: 1px solid black;
+    font-size: 13px;
+    padding-left: 10px;
+    line-height: 0.7em;
+  }
+  .footer-item{
+    box-sizing: border-box;
+  }
+    
+  #sitemap-color{
+  color: white;
+  padding-left: 5px;
+  }
+  
+  @media (min-width: 760px) {
+    .footer-container{
+      display: flex;  
+      }
+  }

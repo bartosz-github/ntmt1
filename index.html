@@ -2,13 +2,312 @@
 <html lang="en">
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <title>NTMT1_ver1</title>
+    <!--FONTS FROM
+    <link rel="preconnect" href="https://fonts.gstatic.com/">
+    <link href="styles/css2.css" rel="stylesheet">
+    FONTS END-->
+
+    <!-- https://fontawesome.com 
+    <link rel="stylesheet" href="styles/all.min.css">
+    -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+
+    <title>NTMT1_rev1.1</title>
 </head>
 <body>
+    <header>
+
+    <!--'inner'/upper header-->
+
+    <div class="UpperHeader-container">
+
+      <div class="uh-item uh-item-1"><img src="pics/netmatters-logo.png" alt="Netmatters Logo" height="60"></div>
+      <button>Support</button>
+      <button>Contact</button>
+ 
+      <form method="GET" action="#" accept-charset="UTF-8" class="search-form "> <!--action="https://www.netmatters.co.uk/search" -->
+
+        <label for="search-input" class="hidden"></label> <!--<label for="search-input" class="hidden">Search:</label>-->
+        <input class="form-control search-bar" placeholder="Search..." id="search-input" name="keyword" type="text" value="">
+        <button type="submit" id="search-submit">
+          <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+        </button>
+        
+      </form>
+
+       <!--  Diff search box
+
+            <div class="uh-item uh-item-4">
+              <input type="text" placeholder="  Search...">
+              <label class="icon">
+                <i class="my-search-icon"></i>
+              </label>
+            
+            </div>
+      -->
+      <!--hamburger menu
+      <button type="button" class="btn btn-primary hamburger hamburger--spin" data-toggle="sidebar">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+      </button>
+      -->
+      <div class="uh-item uh-item-3"><img src="pics/hamburger.png" alt="Menu" height="50"></div>
+
+    </div>
+
+    <hr>
+    </header>
     <main>
-        Hello main
+    Navigation Menu / Lower Header <!--<div class="main-navigation hidden-xs hidden-sm ">-->
+        <!--  'lower-header' which appears at 990px wide -->
+        <div class="lower-header">
+          <ul>
+            <li class="bespoke-sw">Bespoke<br> Software</li>
+            <li class="it-support">IT<br> support</li>
+            <li class="dig-marketing">Digital<br> Marketing</li>
+            <li class="telecoms">Telecoms<br> Services</li>
+            <li class="web-design">Web<br> Design</li>
+            <li class="cyber">Cyber<br> Security</li>
+            <li class="dev-cour">Developer<br> Courses</li>
+          </ul>
+        </div>
+        
+    <hr>
+    <ul><li>Main Banner</li></ul>
+
+    <div class="text">
+      <div class="h1">
+        Web Design
+      </div>
+      <p>For businesses looking to make a strong <br>
+      and effective first impression.</p>
+      <a href="#" class="btn btn-web btn-lg">
+          Find Out More
+        <i class="pull-right icon-arrow-right"></i>
+      </a>
+    </div>
+
+    <hr>
+    <!--Our Services    View Our Work-->
+    <div class="view-services">
+      <div class="our-services">Our Services</div>
+      <a class="view--our-work" href="#">View our work →</a>
+    </div>
+    <hr>
+    <!--    7 cards -->
+    <section> <!--class="container">-->
+      <!--Bespoke Software-->
+        <div class="card bespoke">
+          <div class="car-1"></div>
+          <h2>Bespoke Software</h2>
+          <p>Bespoke software solutions for all of your business needs including integrations and reporting.</p>
+          <a href="#">Read More</a>
+        </div>
+      
+      <!--IT Support-->
+        <div class="card support">
+          <div class="car-2"></div>
+          <h2>IT Support</h2>
+          <p>Fully managed IT support and consultancy packages tailorde to meet your exact business needs.</p>
+          <a href="#">Read More</a>
+        </div>
+      <!--Digital Marketing-->
+        <div class="card marketing">
+          <div class="car-3"></div>
+          <h2>Digital Marketing</h2>
+          <p>Driven brand awareness &amp; ROI through creative digital marketing campaigns</p>
+          <a href="#">Read More</a>
+        </div>
+      <!--Telecom Services-->
+        <div class="card telecom">
+          <div class="car-4"></div>
+          <h2>Telecoms Services</h2>
+          <p>Business telephony solutions including mobile &amp; connectivity solutions</p>
+          <a href="#">Read More</a>
+        </div>
+      <!--Web Design-->
+        <div class="card web">
+          <div class="car-5"></div>
+          <h2>Web Design</h2>
+          <p>User-centric design for businesses looking to make a lasting impression.</p>
+          <a href="#">Read More</a>
+        </div>
+      <!--Cyber Security-->
+        <div class="card security">
+          <div class="car-6"></div>
+          <h2>Cyber Security</h2>
+          <p>Prevention, testing, consultancy &amp; breach management services.</p>
+          <a href="#">Read More</a>
+        </div>
+      <!--Developer Training-->
+        <div class="card developer">
+          <div class="car-7"></div>
+          <h2>Developer Training</h2>
+          <p>Web design &amp; software training courses designed to secure a job in tech.</p>
+          <a href="#">Read More</a>
+        </div>
+    </section>
+    <hr>
+    <div class="partners-slideshow"></div>
+    <!-- centre the award image -->
+      <div class="awards">
+        <img src="pics/norfolk-carbon-charter.jpg" alt="Norfolk Carbon Charter">
+      </div>
+    <br>
     </main>
-    Footer ===========
+
+    <hr>
+    <section> <!--"Welcome to Netmatters"-->
+
+      <h1>Welcome to Netmatters</h1>
+      Netmatters is a leading Bespoke Software, IT Support, and Digital Marketing company based in the East of England with offices in London, Cambridge, Wymondham, and Great Yarmouth.
+      We aren't tied into contracts with third-party providers, so you know that our recommendations for your business are based purely with one benefit in mind: to help improve your business with the most appropriate solutions.
+      We pride ourselves on being an ethical business and have a unique business offering and cost model that ensures you get the most from our relationship in an upfront manner.
+      <br>
+      <br>
+      <button class="why-choose-us" type="button" href="#">WHY CHOOSE US →</button>
+      <br>
+      <button class="why-choose-us" type="button" href="#">OUR CULTURE →</button>
+      <h1>What Our Clients Think</h1>
+      *****
+      <br>
+      Netmatters stood out from the start. Great guys and very easy to work with. Both the build and digital marketing teams are clearly skilled -they know their stuff! They delivered a website to our (high!) expectations and went over and above to ensure we were satisfied clients - and we are!
+      Eleanor Bishop, Head of Marketing - <a class="anchor-txt" href="#">Ashcroft Partnership LLP</a>
+      <br>
+      <br>
+      <button class="google-rvw-btn" type="button">GOOGLE REVIEWS →</button>
+      <br>
+      <button class="trust-rvw-btn" type="button">TRUST PILOT REVIEWS →</button>
+      <br>
+    </section> <!--Welcome to Netmatters END-->
+    <hr>
+    <section> <!--"Latest News"-->
+      <strong>Latest News</strong>
+      <a class="view--our-work" href="#">View our work →</a>
+      <div article1>
+        <!--
+        <div class="article-1">
+          <div class="card-title">
+             <h2>Digital Marketing</h2>
+             <p>Salary Range £28,000 - £34,000 per annum = Bonus Hours 40 hours per week, Mon - Fri..</p>
+             <a class="btn-1" href="#">Read More</a>
+             <div class="partial-line"></div>
+             <br>
+               <div class="outer-container">   
+                 <img src="7%20cards%20test%20page_files/author.png" width="45" height="45"> 
+                   <div class="inner-container">
+                     <div>Posted By Anon.</div>
+                     <div>29th June 2023</div>
+                   </div>
+               </div>
+         </div>
+       </div>-->
+        <h3>Now Hiring:<br>
+        Receptionist</h3>
+        <h4>Temporary Role - Receptionist</h4>
+        <strong>CAREERS</strong>
+        <strong>Salary Range</strong>
+        £21,000-£23,000 per annum<br>
+        <strong>Hours</strong>
+        40 hours per week, Mon - Fri<br>
+        <strong>Location</strong>
+        Wymondham, Norfolk<br>
+        <strong>READ MORE</strong>
+        <br>----------<br>
+        <strong>Posted by Bethany Shapespeare</strong>
+        14th July 2023
+      </div>
+      <div article2>
+        <h3>UP Building Products<br>
+        Website Build</h3>
+        <h4>UP Building Products - Web Case Study - 5 MINUTE READ</h4>
+        <strong>CASE STUDIES</strong>
+        <strong>The Client</strong>
+        UP Building Products are a leading supplier of UPVC building materials across the UK. Stoc<br>
+        <strong>READ MORE</strong>
+        <br>----------<br>
+        <strong>Posted by Netmatters</strong>
+        11th July 2023
+      </div>
+      <div article3>
+        <h3>The Green Team<br>
+        Reducing Our Carbon Footprint...</h3>
+        <h4></h4>
+        <strong>Environmental News</strong>
+        <strong></strong>
+        Netmatters is continuously striving to become more environmentally friendly, diminish our carbon emi...<br>
+        <strong>READ MORE</strong>
+        ----------
+        <strong>Posted by Netmatters</strong>
+        10th July 2023
+      </div>
+
+    <hr>
+
+    <!--    FORM  FROM -->
+    <div class="newsletter-full-width">
+      <div class="container">
+  
+        <form method="POST" action="#" accept-charset="UTF-8" id="sign-up" class="sign-up"><input name="_token" type="hidden" value="7O3xfrbmrxipJ0cJALeB51Q8DJnyD1NtJpKu95in"> <!--action https://www.netmatters.co.uk/newsletter-subscribers#sign-up-->
+  
+  
+          <input name="return_url" type="hidden" value="https://www.netmatters.co.uk">
+  
+
+          <h2>Email Newsletter Sign-Up</h2>
+  
+  
+          <div class="sign-up-inputs-wrapper">
+            <div class="sign-up-input">
+              <div class="form-group">
+                <label for="newsletter-name" class="required">Your Name</label>
+                <input class="form-control" id="newsletter-name" name="name" type="text" value="">
+              </div>
+            </div>
+  
+            <div class="sign-up-input">
+              <div class="form-group">
+                <label for="newsletter-email" class="required">Your Email</label>
+                <input class="form-control" id="newsletter-email" name="email" type="email" value="">
+              </div>
+            </div>
+          </div>
+  
+          <div class="form-group">
+            <label class=" pretty-checkbox" :class="{ active: marketingPreference }">
+              <span class="media">
+              <span class="media-left checkbox-left">
+              <span class="button">
+              <span class="mdi-action-done"></span>
+              <input v-model="marketingPreference" name="marketing_preference" type="checkbox" value="1">
+              </span>
+              </span>
+              <span class="media-body">
+              Please tick this box if you wish to receive marketing information from us.
+              Please see our <a href="#" target="_blank">Privacy Policy</a> for more information on how we keep your data safe. <!--https://www.netmatters.co.uk/privacy-policy-->
+              </span>
+              </span>
+            </label>
+          </div>
+  
+          <div class="my_name_wrap" style="display:none;"><input name="my_name" type="text" value="" id="my_name"/><input name="my_time" type="text" value="eyJpdiI6IkZ1OFZsTFlyMUZUMHM4T2R6SkhPVWc9PSIsInZhbHVlIjoiUVBSWWpJMkpZaE1KQjc5WTJoU2pjQT09IiwibWFjIjoiZTMyZjM1YWM4NGNjOTc3OWQwMzAwYTA4MjI1YjJjY2VkZDhlYjMzNTIwNzNiZGYxNjZiOTUzZDgwMDBlOWUxNCJ9"/></div>
+  
+          <button name="submit" class="btn btn-primary">
+            Subscribe
+          </button>
+  
+        </form>
+  
+      </div>
+    </div>
+
+    <!--    FORM  END -->
+
+     <!--   FOOTER  FROM -->
 
     <footer>
     
@@ -16,7 +315,7 @@
         <div class="socials">
                                                 <!-- Socials Images / links -->
           
-          <img src="7%20cards%20test%20page_files/netmatters-logo-white.png" alt="Netmatters Logo" width="330" height="65">
+          <img src="pics/netmatters-logo-white.png" alt="Netmatters Logo" width="330" height="65">
             
           
            
@@ -24,16 +323,16 @@
               <h3 class="no-bullet-h4">FOLLOW US ON:</h3>
               <div class="about-item">                         <!-- Making the social images change color on hover -->
                 <div class="image-1">
-                  <img src="7%20cards%20test%20page_files/f_logo_blue.png" alt="Facebook" class="bw-image" width="50" height="50">
+                  <img src="pics/f_logo_blue.png" alt="Facebook" class="bw-image" width="50" height="50">
                 </div>
                 <div class="image-2">
-                  <img src="7%20cards%20test%20page_files/linkedin-logo.png" alt="Linkedin" class="bw-image" width="50" height="50">
+                  <img src="pics/linkedin-logo.png" alt="Linkedin" class="bw-image" width="50" height="50">
                 </div>
                 <div class="image-3">
-                  <img src="7%20cards%20test%20page_files/twitter.png" alt="Twitter" class="bw-image" width="50" height="50">
+                  <img src="pics/twitter.png" alt="Twitter" class="bw-image" width="50" height="50">
                 </div>
                 <div class="image-4">
-                  <img src="7%20cards%20test%20page_files/Instagram_logo_2016.svg.webp" alt="Instagram" class="bw-image" width="50" height="50">
+                  <img src="pics/Instagram_logo_2016.svg.webp" alt="Instagram" class="bw-image" width="50" height="50">
                 </div>
               </div>
             </div>
@@ -110,5 +409,6 @@
     
     
     </footer>
+    <!--    FOOTER END-->
 </body>
 </html>
