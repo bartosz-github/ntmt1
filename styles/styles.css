@@ -14,6 +14,34 @@ font-size: 16px;
 margin-left: 10px;
 }
 
+.newsletter-full-width{
+  background-color: #DDDDDD;
+}
+
+footer{
+  background-color: #323544;
+}
+
+.homepage-branded-text{
+  background-color: #333645;
+}
+
+/* diplay text over client's logo B */ /* SWEETZY */
+.hide {
+  display: none;
+}
+.myDIV:hover + .hide {
+  display: block;
+  color: #23AB5F;
+  background-color: #333645; /* GREEN #23AB5F WHITE #DDDDDD*/
+}
+
+
+/* Width does not work
+.myDIV{
+  width: 50%;
+}             */
+/* diplay text over client's logo End */
 .no-bullet-h4{
 color: white;
 font-size       : 16px;
@@ -92,3 +120,7 @@ li:hover{
       display: flex;  
       }
   }
+ @media only screen and (min-width: 768px),
+        only screen and (min-width: 700px) and (orientation: landscape) {
+          /* mobile phone in lanscape mode 
+        }
