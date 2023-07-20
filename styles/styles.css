@@ -1,7 +1,38 @@
+/* Web Fonts ----------------------- */
 
 
+/* Base Styles --------------------- */
+/*broad changes using CSS type selectors like making headings larger or styling the appearance of text hyperlinks*/
 
-/* =================================  */
+/*
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 1.25em; [ 20px on most screens ]
+}
+*/
+/* responsive images
+img {
+  width: 100%; 
+}
+*/
+
+/* FLEX FOOTER */
+
+.flex-footer {
+  display: flex;
+  background-color: 323544;
+}
+
+.flex-footer > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+/* Main Styles --------------------- */ /* more specific selectors */
 .about-item{
   margin-left: 10px;
   display: flex;
@@ -43,18 +74,18 @@ footer{
 }             */
 /* diplay text over client's logo End */
 .no-bullet-h4{
-color: white;
+color: white; /*Floow us on */
 font-size       : 16px;
 margin-left     : 10px;
 }
 
 .no-bullet {
-  list-style-type : none;
+  list-style-type : none; /* no bullets */
   margin          : 8px;
   font-size       : 13px;
   padding         : 0;
   padding-bottom  : 0px;
-  color           : white;
+  color           : black; /*white*/
   text-decoration : none;
 }
 
@@ -114,7 +145,7 @@ li:hover{
   color: white;
   padding-left: 5px;
   }
-  
+/* Media Queries ------------------- */
   @media (min-width: 760px) {
     .footer-container{
       display: flex;  
@@ -124,3 +155,4 @@ li:hover{
         only screen and (min-width: 700px) and (orientation: landscape) {
           /* mobile phone in lanscape mode 
         }
+/* =================================  */
